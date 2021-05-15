@@ -1,0 +1,23 @@
+img{
+    width:100px;
+    height: 50px;
+    display:flex;
+    justify-self: flex-start;
+ }
+  
+ body{
+    font-family: raleway;
+ }
+  
+ .container0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap
+ }
+  
+ .container2{
+    display: flex;
+    flex-direction: row;
+ }
+ 
