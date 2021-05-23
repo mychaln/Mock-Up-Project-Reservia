@@ -1,23 +1,107 @@
 img{
-    width:100px;
-    height: 50px;
     display:flex;
-    justify-self: flex-start;
+    justify-self: center;
+    font-size:16px;
+    width: 10em;
+    height: 7em;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: white;
+   
  }
   
+#Re{
+    width:100px;
+    height:40px;
+    margin:0px 0px;
+    margin-right: 60em;
+
+}
+
  body{
     font-family: raleway;
+    font-size: 12px;
  }
-  
- .container0{
+
+
+ header{
+    border:200px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    flex-wrap:wrap
+    justify-content: flex-end;
+    margin:0px 60px 0px 0px;
+ }
+
+ #SU{
+     font-weight:bold;
+ }
+
+ a{
+    font-size:12px;
+    text-decoration:none;
+    margin:0px 20px;
  }
   
- .container2{
+    
+
+}
+
+i{
+    background-color: #F2F2F2;
+    border-radius: 1em;
+}
+
+
+
+ .container1{
     display: flex;
     flex-direction: row;
  }
  
+ #MF{
+     border-style: hidden;
+     padding:5px 0px ;
+ }
+
+ .container2{
+     font-size: 12px;
+     font-weight: bold;
+     display:flex;
+     flex-direction: row;
+     justify-content: space-between;
+     max-width: 400px;
+ }
+
+
+ #icon{
+     color:#0065FC;
+     background-color: #DEEBFF;
+     padding: 7px 10px;
+     border-radius: 100%;
+     display: flex;
+     justify-content: flex-start;
+    
+ }
+
+ div .container2 :nth-child(1), .container2 :nth-child(2), .container2 :nth-child(3), .container2 :nth-child(4), .container2 :nth-child(5){
+     
+     border-radius: 45% /100%;
+     text-align: sta;
+     width: 100px;
+     border-color:#F2F2F2;
+     border-style: solid;
+     display:flex;
+     flex-direction: row;
+     margin-left: 10px;
+     padding: 0px 40px 0px 0px;
+ }
+
+ .AMarseille{
+     background-color: #F2F2F2;
+     display:flex;
+     flex-wrap: wrap;
+     justify-content:space-around;
+     border-radius: 10px;
+     height: 400px;
+     width:600px;
+ }
