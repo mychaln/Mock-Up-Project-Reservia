@@ -1,21 +1,73 @@
 img{
-    display:flex;
-    justify-self: center;
     font-size:16px;
-    width: 10em;
-    height: 7em;
+    width: 14em;
+    height: 11em;
     border-radius: 10%;
     border-style: solid;
     border-color: white;
-   
+
+ }
+
+
+
+ #L{
+    padding: 12.5px 15px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%; 
+    position: relative; 
+    left:10%;
  }
   
-#Re{
-    width:100px;
-    height:40px;
-    margin:0px 0px;
-    margin-right: 60em;
+input{
+    border-color: #F2F2F2;
+    border-style: solid;
+    padding: 10px 5px;
+    width:70%;
+    border-width:thin ;
+    position: relative;
+}
 
+.search-btn{
+    font-weight: bold;
+    background-color: #0065FC;
+    color:white;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius:20%;
+    padding:11px 10px;
+    position: relative;
+    right:5px;
+}
+
+header{
+    border:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.5em;
+    margin-right:5em ;
+    
+
+    
+ }
+
+#Re{
+    width:4em;
+    height:2em;
+    display: flex;
+    justify-self:flex-start;
+    padding-right: 70%;
+   
+    
+}
+
+#info{
+    border-radius: 100%;
+    border-width: thin;
+    border-style: solid;
+    border-color:#F2F2F2 ;
+    padding:5px 10px;
+    color: #0065FC;
 }
 
  body{
@@ -24,84 +76,233 @@ img{
  }
 
 
- header{
-    border:200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin:0px 60px 0px 0px;
- }
-
- #SU{
-     font-weight:bold;
- }
+ 
 
  a{
     font-size:12px;
-    text-decoration:none;
-    margin:0px 20px;
+    text-decoration: none;  
  }
+
+ 
   
-    
-
-}
-
-i{
-    background-color: #F2F2F2;
-    border-radius: 1em;
-}
-
 
 
  .container1{
     display: flex;
     flex-direction: row;
+    flex-basis: 100%;
+    padding-left:1em;
  }
  
- #MF{
-     border-style: hidden;
-     padding:5px 0px ;
- }
 
  .container2{
-     font-size: 12px;
      font-weight: bold;
      display:flex;
      flex-direction: row;
-     justify-content: space-between;
-     max-width: 400px;
+     gap: 20px;
+     padding-left:1em;
+     
  }
 
 
  #icon{
      color:#0065FC;
      background-color: #DEEBFF;
-     padding: 7px 10px;
      border-radius: 100%;
-     display: flex;
-     justify-content: flex-start;
-    
+     padding:10px 10px;
+     position: relative;
+     right: 2%; 
  }
 
  div .container2 :nth-child(1), .container2 :nth-child(2), .container2 :nth-child(3), .container2 :nth-child(4), .container2 :nth-child(5){
-     
      border-radius: 45% /100%;
-     text-align: sta;
-     width: 100px;
      border-color:#F2F2F2;
      border-style: solid;
-     display:flex;
-     flex-direction: row;
-     margin-left: 10px;
-     padding: 0px 40px 0px 0px;
+     width: 120px;
  }
 
- .AMarseille{
+.sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+ section{
      background-color: #F2F2F2;
-     display:flex;
-     flex-wrap: wrap;
-     justify-content:space-around;
-     border-radius: 10px;
-     height: 400px;
-     width:600px;
+     border-radius: 20px;
+     width: 60%;
+     height: 50em;
+     
  }
+
+ .span{
+     position: relative;
+     left: 2em;
+ }
+
+.flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+ .card{
+     background-color: white;
+     line-height: 20px;
+     width: 16.5em;
+     padding: 1px 13px;
+     border-bottom-right-radius:10%;
+     border-bottom-left-radius: 10%;  
+ }
+
+ #p1{
+    position:relative;
+    bottom: 75px;
+    left:3px;
+ }
+
+ #Show{
+position: relative;
+     padding: 2em;
+     bottom: 3em;
+ }
+
+ .SEC2{
+     width: 35%;
+     height: 50em;
+ }
+
+.MP{
+    display: flex;
+    flex-direction: row;
+    line-height: 0em;
+}
+
+div .MP :nth-child(1){
+    padding-left: 2em;
+}
+
+ 
+
+.img1{
+    width:10em ;
+    height: 8em;
+    border-radius: 0%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+
+}
+
+#arrow{
+    font-size: 14px;
+    padding-top: 1em;
+    padding-left: 21em;
+     
+}
+
+.flex2{
+    display: flex;
+    flex-direction:column ;
+    align-items:center;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+#bluestar{
+color: #0065FC;
+}
+
+#greystar{ 
+color: #F2F2F2;
+}
+
+.card2{
+    background-color: white;
+    width: 15em;
+    height: 11em;
+    border-top-right-radius:10%;
+    border-bottom-right-radius:10%;
+    position:relative;
+    line-height: 2em;
+    bottom:11px;
+    padding-left:10px ;
+}
+
+
+
+
+.flex4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+    
+    
+}
+
+.card3{
+    background-color: white;
+    border-color:#F2F2F2;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px;
+    position: relative;
+    bottom:50px;
+    border-style:solid ;
+    border-top-style: none;
+    border-bottom-width: thin;
+    border-left-width: thin;
+    border-right-width: thin;
+    padding:  10px 10px;
+    flex-grow: 1;
+
+
+}
+
+.tall{
+width: 17em;
+height: 27em;
+}
+
+#square{
+    width: 17em;
+    height:13em; 
+}
+
+#short{
+width: 17em;
+height:10em ;
+}
+ 
+#short1{
+    width: 17em;
+    height:11em;
+}
+
+ 
+
+.end{
+    display: flex;
+    flex-direction: column;
+    line-height: 1em;
+    flex-grow: 1;
+    padding-left: 2em;
+}
+
+
+
+footer{
+ background-color: #F2F2F2;
+ display: flex;
+ flex-direction: row;
+ 
+ flex-shrink: 1;
+
+}
+
