@@ -8,7 +8,15 @@ img{
 
  }
 
+ .header{}
 
+ #head{
+
+ }
+
+#head1{
+font-weight: bold;
+}
 
  #L{
     padding: 12.5px 15px;
@@ -46,10 +54,10 @@ header{
     justify-content: space-between;
     padding-top: 1.5em;
     margin-right:5em ;
-    
-
-    
+    min-width: 320px;
  }
+
+
 
 #Re{
     width:4em;
@@ -80,7 +88,7 @@ header{
 
  a{
     font-size:12px;
-    text-decoration: none;  
+    text-decoration: none;
  }
 
  
@@ -91,7 +99,6 @@ header{
     display: flex;
     flex-direction: row;
     flex-basis: 100%;
-    padding-left:1em;
  }
  
 
@@ -104,6 +111,14 @@ header{
      
  }
 
+ .filter:hover{
+    background-color: #DEEBFF;
+ }
+
+#span3{
+    border-style: none;
+}
+
 
  #icon{
      color:#0065FC;
@@ -112,6 +127,7 @@ header{
      padding:10px 10px;
      position: relative;
      right: 2%; 
+     
  }
 
  div .container2 :nth-child(1), .container2 :nth-child(2), .container2 :nth-child(3), .container2 :nth-child(4), .container2 :nth-child(5){
@@ -165,6 +181,7 @@ header{
  }
 
  #Show{
+     font-weight:bold ;
 position: relative;
      padding: 2em;
      bottom: 3em;
@@ -179,6 +196,8 @@ position: relative;
     display: flex;
     flex-direction: row;
     line-height: 0em;
+    gap: 24.5em;
+
 }
 
 div .MP :nth-child(1){
@@ -188,6 +207,7 @@ div .MP :nth-child(1){
  
 
 .img1{
+    position: relative;
     width:10em ;
     height: 8em;
     border-radius: 0%;
@@ -199,20 +219,23 @@ div .MP :nth-child(1){
 #arrow{
     font-size: 14px;
     padding-top: 1em;
-    padding-left: 21em;
+    
      
 }
 
 .flex2{
     display: flex;
-    flex-direction:column ;
+    flex-direction:column;
     align-items:center;
+    
+    
 }
 
 .flex3{
     display: flex;
     flex-direction: row;
     margin-bottom: 5%;
+    
 }
 
 #bluestar{
@@ -227,6 +250,7 @@ color: #F2F2F2;
     background-color: white;
     width: 15em;
     height: 11em;
+    padding-bottom: 0em;
     border-top-right-radius:10%;
     border-bottom-right-radius:10%;
     position:relative;
@@ -234,9 +258,6 @@ color: #F2F2F2;
     bottom:11px;
     padding-left:10px ;
 }
-
-
-
 
 .flex4{
     display: flex;
@@ -285,7 +306,6 @@ height:10em ;
     height:11em;
 }
 
- 
 
 .end{
     display: flex;
@@ -301,8 +321,123 @@ footer{
  background-color: #F2F2F2;
  display: flex;
  flex-direction: row;
- 
  flex-shrink: 1;
-
 }
 
+
+@media all and (max-width:550px){
+   
+    header{
+       display: inline; 
+   }
+
+   .header{}
+
+   #head{
+       
+   }
+  
+  #head1{
+  
+  }
+  
+
+   img{
+    width: 21em;
+    height:11em;
+   }
+
+   .card{
+    width: 25.7em;
+    border-style: solid;
+    border-width: thin;
+    border-color:#F2F2F2 ;
+   }
+
+   .MP{
+       font-size:16px;
+       gap: 16em;
+   }
+
+   .span{
+       position: static;
+       margin-top: 10em;
+   }
+
+   .container1{
+   }
+   
+.sections{
+   flex-direction: column-reverse;
+    
+   
+}
+.SEC2{
+    width: auto;
+    height: auto;
+}
+
+.flex1{
+    background-color: white;
+}
+
+#color{
+    background-color:white ;
+}
+
+.span{
+    text-align: center;
+    font-size: 17px;
+}
+
+#span2{
+    font-size: 17px;
+    position: relative;
+    left:5em;
+}
+
+section{
+    border-radius: 0em;
+    width: auto;
+    height: auto;
+}
+
+.tall{
+    width: 21em;
+    height:11em;
+}
+
+#square{
+    width: 21em;
+    height:11em;
+}
+
+#short{
+    width: 21em;
+    height:11em;
+}
+
+#short1{
+    width: 21em;
+    height:11em;
+}
+
+.card3{
+    width: 26.4em;
+}
+
+.flex4{ flex-direction: column;
+    align-items: center;
+}
+
+footer{
+   flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+.end{
+    display: inline;
+}
+
+}
