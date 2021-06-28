@@ -84,10 +84,7 @@ header{
  }
 
 
- 
-
  a{
-    font-size:12px;
     text-decoration: none;
  }
 
@@ -115,12 +112,12 @@ header{
     background-color: #DEEBFF;
  }
 
-#span3{
+.span3{
     border-style: none;
 }
 
 
- #icon{
+ .icon{
      color:#0065FC;
      background-color: #DEEBFF;
      border-radius: 100%;
@@ -174,7 +171,7 @@ header{
      border-bottom-left-radius: 10%;  
  }
 
- #p1{
+ .p1{
     position:relative;
     bottom: 75px;
     left:3px;
@@ -193,10 +190,8 @@ position: relative;
  }
 
 .MP{
-    display: flex;
-    flex-direction: row;
-    line-height: 0em;
-    gap: 24.5em;
+    display: inline-flex;
+    
 
 }
 
@@ -217,6 +212,7 @@ div .MP :nth-child(1){
 }
 
 #arrow{
+    margin-left: 21em;
     font-size: 14px;
     padding-top: 1em;
     
@@ -238,11 +234,11 @@ div .MP :nth-child(1){
     
 }
 
-#bluestar{
+.bluestar{
 color: #0065FC;
 }
 
-#greystar{ 
+.greystar{ 
 color: #F2F2F2;
 }
 
@@ -301,7 +297,7 @@ width: 17em;
 height:10em ;
 }
  
-#short1{
+.short1{
     width: 17em;
     height:11em;
 }
@@ -328,19 +324,70 @@ footer{
 @media all and (max-width:550px){
    
     header{
-       display: inline; 
+        display:flex;
+        flex-direction: row;
+       flex-wrap: wrap;
+       justify-items: space-around;
+      
    }
 
-   .header{}
+   #Re{
+      order:1;
+      margin-bottom: 5mm;
+   }
+
+   .header{
+    position: relative;
+    left:5em ;
+    border-bottom-style:solid ;
+    border-bottom-color:#F2F2F2;
+    padding-right: 20mm;
+    padding-left: 25mm;
+    padding-bottom: 1em;
+   }
+
+   .header1{
+    position: relative;
+    left: ;
+    border-bottom-style:solid ;
+    border-bottom-color:#F2F2F2 ;
+    padding-right: 15mm;
+    padding-left: 16mm;
+    padding-bottom: 1em;
+}
 
    #head{
-       
+       order:3; 
    }
   
   #head1{
-  
+  order:2;
+  position: relative;
+  top: 1em;
+  left:3em;
   }
   
+.container2{
+   display: flex;
+   flex-direction: column;
+  gap: 10px;
+  
+  
+}
+
+.rom{
+    position: relative;
+    left: 12em;
+    bottom:12.1em;
+}
+
+
+.c{
+    order:3; 
+}
+
+
+
 
    img{
     width: 21em;
@@ -356,7 +403,7 @@ footer{
 
    .MP{
        font-size:16px;
-       gap: 16em;
+       align-items: center;
    }
 
    .span{
@@ -364,13 +411,16 @@ footer{
        margin-top: 10em;
    }
 
-   .container1{
+   .flex3{
+        align-content: center;
    }
    
+   div .MP :nth-child(1) {
+    padding-left: 0;
+}
+
 .sections{
-   flex-direction: column-reverse;
-    
-   
+   flex-direction: column-reverse; 
 }
 .SEC2{
     width: auto;
@@ -417,7 +467,7 @@ section{
     height:11em;
 }
 
-#short1{
+.short1{
     width: 21em;
     height:11em;
 }
