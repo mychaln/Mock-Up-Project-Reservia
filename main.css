@@ -321,7 +321,7 @@ footer{
 }
 
 
-@media all and (max-width:550px){
+@media only screen and (max-width: 600px){
    
     header{
         display:flex;
