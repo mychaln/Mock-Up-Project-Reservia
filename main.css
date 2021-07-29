@@ -8,11 +8,6 @@ img{
 
  }
 
- .header{}
-
- #head{
-
- }
 
 #head1{
 font-weight: bold;
@@ -179,7 +174,7 @@ header{
 
  #Show{
      font-weight:bold ;
-position: relative;
+     position: relative;
      padding: 2em;
      bottom: 3em;
  }
@@ -191,8 +186,6 @@ position: relative;
 
 .MP{
     display: inline-flex;
-    
-
 }
 
 div .MP :nth-child(1){
@@ -208,15 +201,12 @@ div .MP :nth-child(1){
     border-radius: 0%;
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
-
 }
 
 #arrow{
     margin-left: 21em;
     font-size: 14px;
     padding-top: 1em;
-    
-     
 }
 
 .flex2{
@@ -231,7 +221,6 @@ div .MP :nth-child(1){
     display: flex;
     flex-direction: row;
     margin-bottom: 5%;
-    
 }
 
 .bluestar{
@@ -259,9 +248,7 @@ color: #F2F2F2;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-weight: bold;
-    
-    
+    font-weight: bold;  
 }
 
 .card3{
@@ -278,8 +265,6 @@ color: #F2F2F2;
     border-right-width: thin;
     padding:  10px 10px;
     flex-grow: 1;
-
-
 }
 
 .tall{
@@ -333,7 +318,6 @@ footer{
    #Re{
       order:1;
       margin-bottom: 5mm;
-	  
    }
 
    .header{
@@ -353,7 +337,6 @@ footer{
     border-bottom-color:#F2F2F2 ;
     padding-right: 2em;
     padding-left:3em ;
-    padding-bottom: ;
 }
 
    #head{
@@ -364,7 +347,7 @@ footer{
   order:2;
   position: relative;
   bottom: 3.5em;
-  left:25em;
+  left:21.5em;
   }
   
 .container2{
@@ -481,7 +464,7 @@ section{
 }
 
 .card3{
-    width: 26.4em;
+    width: 26.5em;
 }
 
 .flex4{ flex-direction: column;
