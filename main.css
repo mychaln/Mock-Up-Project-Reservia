@@ -13,7 +13,7 @@ img{
 font-weight: bold;
 }
 
- #L{
+ #Location{
     padding: 12.5px 15px;
     background-color: #F2F2F2;
     border-top-left-radius: 20%;
@@ -55,7 +55,7 @@ header{
 
 
 
-#Re{
+#Logo{
     width:4em;
     height:2em;
     display: flex;
