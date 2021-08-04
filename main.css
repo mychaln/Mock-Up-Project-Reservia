@@ -61,6 +61,8 @@ header{
     display: flex;
     justify-self:flex-start;
     padding-right: 70%;
+    position: relative;
+    bottom: 1em;
    
     
 }
@@ -83,10 +85,6 @@ header{
  a{
     text-decoration: none;
  }
-
- 
-  
-
 
  .container1{
     display: flex;
@@ -316,9 +314,10 @@ footer{
        justify-items: space-around;
    }
 
+
    #Re{
       order:1;
-      margin-bottom: 5mm;
+      margin-bottom: 8mm;
    }
 
    .header{
